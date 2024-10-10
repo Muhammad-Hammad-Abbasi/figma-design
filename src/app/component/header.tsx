@@ -64,7 +64,7 @@ export default function Header() {
             >
               <nav className="flex flex-col bg-white text-lg md:text-md lg:text-[17px] font-semibold h-[450px] w-[300px]">
 
-                <button onClick={toggle_Button} className="self-end p-10 ">
+                <button onClick={toggle_Button} className="self-end py-10 px-12">
                   <FaTimes size={20} />
                 </button>
 
