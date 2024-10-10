@@ -40,9 +40,9 @@ export default function Header() {
           <nav className="flex text-sm md:text-md lg:text-[17px] items-center font-semibold lg:px-4 p-2">
             <ul className="flex md:gap-8 lg:gap-14">
               <li><Link href={"/"} className="hover:text-[#c4ac4f]">Home</Link></li>
-              <li><Link href={""} className="hover:text-[#c4ac4f]">Shop</Link></li>
-              <li><Link href={""} className="hover:text-[#c4ac4f]">Blog</Link></li>
-              <li><Link href={""} className="hover:text-[#c4ac4f]">Contact</Link></li>
+              <li><Link href={"/"} className="hover:text-[#c4ac4f]">Shop</Link></li>
+              <li><Link href={"/"} className="hover:text-[#c4ac4f]">Blog</Link></li>
+              <li><Link href={"/"} className="hover:text-[#c4ac4f]">Contact</Link></li>
             </ul>
 
             {/* Icons */}
@@ -71,17 +71,17 @@ export default function Header() {
                 {/* Centered Links */}
                 <ul className="flex flex-col items-center space-y-10">
                   <li><Link href={"/"} className="hover:text-[#c4ac4f]">Home</Link></li>
-                  <li><Link href={"./shop"} className="hover:text-[#c4ac4f]">Shop</Link></li>
+                  <li><Link href={"/"} className="hover:text-[#c4ac4f]">Shop</Link></li>
                   <li><Link href={"/"} className="hover:text-[#c4ac4f]">Blog</Link></li>
                   <li><Link href={"/contact"} className="hover:text-[#c4ac4f]">Contact</Link></li>
                 </ul>
 
                 {/* Icons - Positioned */}
                 <ul className="flex space-x-5 justify-center pt-14">
-                  <li><Link href={"/contact"}><CgProfile size={30} /></Link></li>
-                  <li><Link href={"/shop"}><FiSearch size={30} /></Link></li>
-                  <li><Link href={"/blog"}><FaRegHeart size={30} /></Link></li>
-                  <li><Link href={"/shop"}><MdOutlineShoppingCart size={30} /></Link></li>
+                  <li><Link href={"/"}><CgProfile size={30} /></Link></li>
+                  <li><Link href={"/"}><FiSearch size={30} /></Link></li>
+                  <li><Link href={"/"}><FaRegHeart size={30} /></Link></li>
+                  <li><Link href={"/"}><MdOutlineShoppingCart size={30} /></Link></li>
                 </ul>
               </nav>
             </div>
