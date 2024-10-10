@@ -62,7 +62,7 @@ export default function Header() {
               className={`fixed inset-y-0 right-0 z-50 duration-[2000ms] ease-in-out transform 
       `}
             >
-              <nav className="flex flex-col bg-white text-lg md:text-md lg:text-[17px] font-semibold h-full w-[300px]">
+              <nav className="flex flex-col bg-white text-lg md:text-md lg:text-[17px] font-semibold h-[450px] w-[300px]">
 
                 <button onClick={toggle_Button} className="self-end p-10 ">
                   <FaTimes size={20} />
