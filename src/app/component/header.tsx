@@ -73,7 +73,7 @@ export default function Header() {
                   <li><Link href={"/"} className="hover:text-[#c4ac4f]">Home</Link></li>
                   <li><Link href={"/"} className="hover:text-[#c4ac4f]">Shop</Link></li>
                   <li><Link href={"/"} className="hover:text-[#c4ac4f]">Blog</Link></li>
-                  <li><Link href={"/contact"} className="hover:text-[#c4ac4f]">Contact</Link></li>
+                  <li><Link href={"/"} className="hover:text-[#c4ac4f]">Contact</Link></li>
                 </ul>
 
                 {/* Icons - Positioned */}
