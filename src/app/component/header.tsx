@@ -1,8 +1,9 @@
 'use client'
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { BsBox } from "react-icons/bs";
+
 import { CgProfile } from "react-icons/cg";
 import { FaRegHeart, FaTimes } from "react-icons/fa";
 import { FiAlignRight, FiSearch } from "react-icons/fi";
@@ -23,8 +24,8 @@ export default function Header() {
 
         {/* logo div */}
         <div className="flex text-4xl font-bold">
-          <h1 className="text-[#c4ac4f]">
-            <BsBox />
+          <h1 className="text-[#B88E2F] pt-1">
+            <Image src={"/logo.png"} height={50} width={50} alt="logo" />
           </h1>
           <p className="pl-3">Furniro</p>
 
@@ -39,10 +40,10 @@ export default function Header() {
         <div className="hidden md:block lg:block">
           <nav className="flex text-sm md:text-md lg:text-[17px] items-center font-semibold lg:px-4 p-2">
             <ul className="flex md:gap-8 lg:gap-14">
-              <li><Link href={"/"} className="hover:text-[#c4ac4f]">Home</Link></li>
-              <li><Link href={"/"} className="hover:text-[#c4ac4f]">Shop</Link></li>
-              <li><Link href={"/"} className="hover:text-[#c4ac4f]">Blog</Link></li>
-              <li><Link href={"/"} className="hover:text-[#c4ac4f]">Contact</Link></li>
+              <li><Link href={"/"} className="hover:text-[#B88E2F]">Home</Link></li>
+              <li><Link href={"/"} className="hover:text-[#B88E2F]">Shop</Link></li>
+              <li><Link href={"/"} className="hover:text-[#B88E2F]">Blog</Link></li>
+              <li><Link href={"/"} className="hover:text-[#B88E2F]">Contact</Link></li>
             </ul>
 
             {/* Icons */}
@@ -70,10 +71,10 @@ export default function Header() {
 
                 {/* Centered Links */}
                 <ul className="flex flex-col items-center space-y-10">
-                  <li><Link href={"/"} className="hover:text-[#c4ac4f]">Home</Link></li>
-                  <li><Link href={"/"} className="hover:text-[#c4ac4f]">Shop</Link></li>
-                  <li><Link href={"/"} className="hover:text-[#c4ac4f]">Blog</Link></li>
-                  <li><Link href={"/"} className="hover:text-[#c4ac4f]">Contact</Link></li>
+                  <li><Link href={"/"} className="hover:text-[#B88E2F]">Home</Link></li>
+                  <li><Link href={"/"} className="hover:text-[#B88E2F]">Shop</Link></li>
+                  <li><Link href={"/"} className="hover:text-[#B88E2F]">Blog</Link></li>
+                  <li><Link href={"/"} className="hover:text-[#B88E2F]">Contact</Link></li>
                 </ul>
 
                 {/* Icons - Positioned */}

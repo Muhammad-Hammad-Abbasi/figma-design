@@ -14,7 +14,7 @@ export default function Our_Product() {
                     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-20 mt-16 px-10 text-center font-medium">
                         <ul className="">
                             <Image
-                                src={"/dining-img.jpg"}
+                                src={"/dining.png"}
                                 height={350}
                                 width={350}
                                 alt="Dining Room"
@@ -26,7 +26,7 @@ export default function Our_Product() {
 
                         <ul>
                             <Image
-                                src={"/living-img.png"}
+                                src={"/living room.png"}
                                 height={350}
                                 width={350}
                                 alt="Living Room"
@@ -38,7 +38,7 @@ export default function Our_Product() {
 
                         <ul>
                             <Image
-                                src={"/badroom-img.png"}
+                                src={"/badroom.png"}
                                 height={350}
                                 width={350}
                                 alt="Bed Room"
@@ -229,7 +229,7 @@ export default function Our_Product() {
                     </div>
 
                       <div className="flex justify-center">
-                    <button className=" bg-[#ffff] my-10 text-[#c4ac4f] text-sm font-bold py-3 md:py-4 lg:py-5 px-10 md:px-12 lg:px-24 duration-1000 border border-[#c4ac4f] hover:bg-[#c4ac4f] hover:text-white">SHOW MORE</button>
+                    <button className=" bg-[#ffff] my-10 text-[#B88E2F] text-sm font-bold py-3 md:py-4 lg:py-5 px-10 md:px-12 lg:px-24 duration-1000 border border-[#B88E2F] hover:bg-[#B88E2F] hover:text-white">SHOW MORE</button>
                     </div>
                 </div>
 
@@ -239,7 +239,7 @@ export default function Our_Product() {
                         <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#4e4c4c] py-3">50+ Beautiful rooms inspiration</h3>
                         <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you.</p>
 
-                        <button className="bg-[#c4ac4f] mt-3 text-sm font-bold py-3 md:py-4 lg:py-5 px-10 md:px-12 lg:px-20 duration-1000 border hover:border-[#c4ac4f] hover:bg-white hover:text-[#c4ac4f]">EXPLORE MORE</button>
+                        <button className="bg-[#B88E2F] mt-3 text-sm font-bold py-3 md:py-4 lg:py-5 px-10 md:px-12 lg:px-20 duration-1000 border hover:border-[#B88E2F] hover:bg-white hover:text-[#B88E2F]">EXPLORE MORE</button>
 
                     </div>
 
