@@ -2,19 +2,19 @@ import Image from "next/image";
 
 export default function Furniro() {
   return (
-    <main className="">
+    <main className="hidden md:block lg:block">
 
 
       <div className="text-center py-20">
         <p className="font-semibold py-1">Share your setup with</p>
-        <h3 className="text-5xl font-bold">#FurniroFurniture</h3>
+        <h3 className="text-2xl md:text-3xl lg:text-5xl font-bold">#FurniroFurniture</h3>
       </div>
 
 
-      <span className="flex justify-center px-3">
+      <span className="flex justify-center px-3 flex-col">
 
         {/* First section with 4 images */}
-        <div className="grid grid-cols-2 lg:grid-cols-1 lg:grid-rows-2 grid-flow-col gap-4  mix-w-[400px]">
+        <div className="grid grid-cols-3 lg:grid-cols-1 lg:grid-rows-2 grid-flow-col gap-4  mix-w-[400px]">
           
           <div className="row-span-1">
             <Image
@@ -66,7 +66,8 @@ export default function Furniro() {
         </div>
 
         {/* Third section with 4 images */}
-        <div className="grid grid-cols-2 lg:grid-cols-1 lg:grid-rows-2 grid-flow-col gap-4  mix-w-[400px]">
+       
+        <div className="grid grid-cols-3 lg:grid-cols-1 lg:grid-rows-2 grid-flow-col gap-4  mix-w-[400px]">
           <div className="flex items-end row-span-1">
             <Image
               src="/furniro-img5.png"
@@ -103,7 +104,7 @@ export default function Furniro() {
               className="w-[250px] h-[200px]"
             />
           </div>
-        </div>
+          </div>
 
       </span>
 
