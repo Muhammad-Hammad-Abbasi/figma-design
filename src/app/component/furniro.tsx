@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Furniro() {
   return (
-    <main className="hidden md:block lg:block">
+    <main className="hidden md:hidden lg:block">
 
 
       <div className="text-center py-20">
@@ -11,7 +11,7 @@ export default function Furniro() {
       </div>
 
 
-      <span className="flex justify-center px-3 flex-col">
+      <span className="flex justify-center px-3">
 
         {/* First section with 4 images */}
         <div className="grid grid-cols-3 lg:grid-cols-1 lg:grid-rows-2 grid-flow-col gap-4  mix-w-[400px]">
@@ -66,7 +66,7 @@ export default function Furniro() {
         </div>
 
         {/* Third section with 4 images */}
-       
+        
         <div className="grid grid-cols-3 lg:grid-cols-1 lg:grid-rows-2 grid-flow-col gap-4  mix-w-[400px]">
           <div className="flex items-end row-span-1">
             <Image
@@ -105,6 +105,7 @@ export default function Furniro() {
             />
           </div>
           </div>
+      
 
       </span>
 
